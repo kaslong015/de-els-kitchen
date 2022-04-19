@@ -1,9 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans+Narrow:wght@400;700&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 
 
-.nav-hov{
-    @apply text-green-700;
+@layer base {
+    body {
+      @apply bg-custom-background-image-name bg-cover bg-no-repeat;
+    }
+   
 }
+
+ 
